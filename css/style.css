@@ -44,7 +44,7 @@ a{
   width: 300px;
   height: 300px;
   border-radius: 100%;
-  background-image: url('http://localhost/Hello-pwa/images/foto-celu2.jpg');
+  background-image: url('http:/images/foto-celu2.jpg');
   background-repeat: no-repeat;
 }
 .frow .col2 {
@@ -88,7 +88,7 @@ a{
 
 #claro{
   min-height: 300px;
-  background-image: url('http://localhost/Hello-pwa/images/foto-celu2.jpg');
+  background-image: url('https://yourbeautyweb.github.io/newpwa/images/foto-celu2.jpg');
   background-repeat: no-repeat;
 }
 
