@@ -11,10 +11,10 @@ html,
   width: 100%;
 }
 a{
-  font-family: roboto, monospace;
+  font-family: ubuntu, monospace;
   color: #354e80;
   text-decoration: none;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 /* Center the content in the browser window */
@@ -59,6 +59,7 @@ a{
    }
 	.frow .col1, .frow .col2 {
      width: 100%;
+     padding: 0;		
     }
 }
 
@@ -84,6 +85,10 @@ a{
 
 #rojo2{
   background: #c6eef7;
+}
+
+#a_left{
+  float: left;
 }
 
 #claro{
