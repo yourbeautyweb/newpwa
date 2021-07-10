@@ -1,0 +1,182 @@
+body {
+  font-family: verdana;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+a{
+  font-family: ubuntu, monospace;
+  color: #354e80;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+img{
+  max-width: 90%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+
+.frow {
+    clear:both;
+	  padding:10px;
+}
+
+.frow .col {
+	display: block;
+	float:left;
+	margin: 0;
+  text-align: center;
+}
+
+.frow .col:first-child { margin-left: 0; }
+
+.frow .col1 {
+  width: 43.0%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: url('http://localhost/Hello-pwa/images/foto-celu2.jpg');
+  background-repeat: no-repeat;
+}
+.frow .col2 {
+  width: 43.0%;
+  min-height: 100px;
+  padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 540px) {
+	.col {
+     margin: 1% 0 1% 0%;
+   }
+	.frow .col1, .frow .col2 {
+     width: 100%;
+     padding: 0;
+    }
+}
+
+.separa{
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.centrado{
+  background-color: #123cf5;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  color: #fff;
+  text-align: center;
+}
+
+#rojo{
+  background: #ece2f9;
+}
+
+#rojo2{
+  background: #c6eef7;
+}
+
+#reclamos{
+  background: #f7e58d;
+  color: #fff;
+}
+
+#a_left{
+  float: left;
+}
+#a_center{
+  text-align: center;
+}
+
+#claro{
+  min-height: 300px;
+  background-image: url('http://localhost/Hello-pwa/images/foto-celu2.jpg');
+  background-repeat: no-repeat;
+}
+
+#gris{
+  background: #f542b6;
+}
+
+#f-gradiente{
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+#p-flotante{
+  margin-left: 50%;
+  color: #fff433;
+}
+
+.titulo {
+  margin: 20px 0;
+  color: #ffff00;
+}
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2{
+  font-family: roboto, monospace;
+  color: #3e4252;
+}
+
+.flecha-enlace{
+  font-size: 130%;
+}
+
+.BUTTON_OM {
+  margin-top: 30px;
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-family: Courier New;
+   font-size: 24px;
+   font-weight: 300;
+   padding: 15px;
+   -webkit-box-shadow: 0 0 12px 0 #2c3861;
+   -moz-box-shadow: 0 0 12px 0 #2c3861;
+   box-shadow: 0 0 12px 0 #2c3861;
+   text-shadow: 1px 1px 20px #2c3861;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.redes_logos{
+  width: 100%;
+  min-height: 100px;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px){
+    .BUTTON_OM{
+      margin-top: 10px;
+    }
+}
