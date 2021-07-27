@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>agencias de remises</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://github.com/yourbeautyweb/newpwa/css/style.css">
   <meta name="description" content="remiserias de buenos aires">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
@@ -72,7 +72,7 @@ a{
         </div>
       </div>
 
-<?php include "nosotros.php" ?>
+<?php include "https://github.com/yourbeautyweb/newpwa/agencia/nosotros.php" ?>
 
 <div class="separa"></div>
 <div class="centrado" id="gris">
@@ -84,6 +84,6 @@ a{
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
     </script>
-    <script type="text/javascript" src="js/index.js"></script>
+   
 </body>
 </html>
