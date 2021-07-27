@@ -40,14 +40,11 @@ ul{
   .BUTTON_OM {
     margin-top: 30px;
      background: #3D94F6;
-     background-image: -webkit-linear-gradient(top, #2871f5, #35a9ec);
-     background-image: -moz-linear-gradient(top, #2871f5, #35a9ec);
-     background-image: -ms-linear-gradient(top, #2871f5, #35a9ec);
-     background-image: -o-linear-gradient(top, #2871f5, #35a9ec);
-     background-image: -webkit-gradient(to bottom, #2871f5, #35a9ec);
-     -webkit-border-radius: 7px;
-     -moz-border-radius: 7px;
-     border-radius: 7px;
+     background-image: -webkit-linear-gradient(top, #f54428, #ff9800);
+     background-image: -moz-linear-gradient(top, #f54428, #ff9800);
+     background-image: -ms-linear-gradient(top, #f54428, #ff9800);
+     background-image: -o-linear-gradient(top, #f54428, #ff9800);
+     background-image: -webkit-gradient(to bottom, #f54428, #ff9800);
      color: #FFFFFF;
      font-family: Courier New;
      font-size: 24px;
@@ -57,7 +54,6 @@ ul{
      -moz-box-shadow: 0 0 8px 0 #2c3861;
      box-shadow: 0 0 8px 0 #2c3861;
      text-shadow: 1px 1px 20px #2c3861;
-     border: solid #337FED 1px;
      text-decoration: none;
      display: inline-block;
      cursor: pointer;
