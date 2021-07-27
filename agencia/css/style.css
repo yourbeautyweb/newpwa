@@ -1,0 +1,100 @@
+html, .fullscreen{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  font-family: ubuntu, monospace;
+}
+
+ul{
+  width: 90%;
+  list-style-type: none;
+  font-size: 1.8em;
+  text-align: left;
+  text-transform: lowercase;
+}
+  ul li{
+    font-family: ubuntu, monospace;
+    padding: 10px;
+    color: #273d58;
+  }
+
+  .centrado{
+    background-color: #1c202d;
+    margin: auto;
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    font-size: 1.6em;
+  }
+
+  .BUTTON_OM {
+    margin-top: 30px;
+     background: #3D94F6;
+     background-image: -webkit-linear-gradient(top, #2871f5, #35a9ec);
+     background-image: -moz-linear-gradient(top, #2871f5, #35a9ec);
+     background-image: -ms-linear-gradient(top, #2871f5, #35a9ec);
+     background-image: -o-linear-gradient(top, #2871f5, #35a9ec);
+     background-image: -webkit-gradient(to bottom, #2871f5, #35a9ec);
+     -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+     border-radius: 7px;
+     color: #FFFFFF;
+     font-family: Courier New;
+     font-size: 24px;
+     font-weight: 300;
+     padding: 15px;
+     -webkit-box-shadow: 0 0 8px 0 #2c3861;
+     -moz-box-shadow: 0 0 8px 0 #2c3861;
+     box-shadow: 0 0 8px 0 #2c3861;
+     text-shadow: 1px 1px 20px #2c3861;
+     border: solid #337FED 1px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+  }
+  .card{
+    width: 100%;
+    margin:15px  auto;
+    padding: 20px;
+    border: 1px solid grey;
+    background: #15f7f7;
+  }
+  .header{
+    background-color: #0e1531;
+    margin: auto;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  #my-row{
+    min-height: 70px;
+    padding: 20px;
+    background: #ffeb3b;
+  }
+  .separa{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+  }
+  h1{
+    color:#fff;
+  }
+  h3{
+    color: #b1eff9;
+  }
+  .p-suave{
+    font-size: 1.7em;
+      color: #5f6573;
+      font-family: verdana;
+  }
