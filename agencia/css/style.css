@@ -60,11 +60,7 @@ ul{
      text-align: center;
   }
   .card{
-    width: 100%;
-    margin:15px  auto;
     padding: 20px;
-    border: 1px solid grey;
-    background: #f9f3e0;
   }
   .header{
     background-color: #0e1531;
