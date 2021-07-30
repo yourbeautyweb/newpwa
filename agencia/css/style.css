@@ -64,7 +64,7 @@ ul{
     margin:15px  auto;
     padding: 20px;
     border: 1px solid grey;
-    background: #0bce08;
+    background: #f9f3e0;
   }
   .header{
     background-color: #0e1531;
@@ -76,7 +76,7 @@ ul{
   #my-row{
     min-height: 70px;
     padding: 20px;
-    background: #ffeb3b;
+    background: #0bce08;
   }
   .separa{
     width: 100%;
