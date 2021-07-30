@@ -36,29 +36,31 @@ ul{
     text-decoration: none;
     font-size: 1.6em;
   }
-
   .BUTTON_OM {
-    margin-top: 30px;
-     background: #3D94F6;
-     background-image: -webkit-linear-gradient(top, #f54428, #ff9800);
-     background-image: -moz-linear-gradient(top, #f54428, #ff9800);
-     background-image: -ms-linear-gradient(top, #f54428, #ff9800);
-     background-image: -o-linear-gradient(top, #f54428, #ff9800);
-     background-image: -webkit-gradient(to bottom, #f54428, #ff9800);
-     color: #FFFFFF;
-     font-family: Courier New;
-     font-size: 24px;
-     font-weight: 300;
-     padding: 15px;
-     -webkit-box-shadow: 0 0 8px 0 #2c3861;
-     -moz-box-shadow: 0 0 8px 0 #2c3861;
-     box-shadow: 0 0 8px 0 #2c3861;
-     text-shadow: 1px 1px 20px #2c3861;
-     text-decoration: none;
-     display: inline-block;
-     cursor: pointer;
-     text-align: center;
-  }
+      margin-top: 30px;
+       background: #3D94F6;
+       background-image: -webkit-linear-gradient(top, #f54428, #ea0303);
+       background-image: -moz-linear-gradient(top, #f54428, #ea0303);
+       background-image: -ms-linear-gradient(top, #f54428, #ea0303);
+       background-image: -o-linear-gradient(top, #f54428, #ea0303);
+       background-image: -webkit-gradient(to bottom, #f54428, #ea0303);
+       color: #FFFFFF;
+       font-family: Courier New;
+       font-size: 24px;
+       font-weight: 300;
+       padding: 15px;
+       -webkit-box-shadow: 0 0 8px 0 #2c3861;
+       -moz-box-shadow: 0 0 8px 0 #2c3861;
+       box-shadow: 0 0 8px 0 #2c3861;
+       text-shadow: 1px 1px 20px #2c3861;
+       text-decoration: none;
+       display: inline-block;
+       cursor: pointer;
+       text-align: center;
+    }
+    .BUTTON_OM:hover{
+      text-decoration: none;
+    }
   .card{
     padding: 20px;
   }
